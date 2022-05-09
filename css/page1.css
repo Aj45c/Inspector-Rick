@@ -1,0 +1,21 @@
+
+body{
+    font-family:"Special Elite";
+    background-color: #18191A;
+}
+h1{
+    color: lawngreen;
+    text-align: right;
+}
+P{
+    COLOR:lawngreen;
+}
+ul{
+    display:grid;
+    padding-top: 20px;
+    grid-template-columns: 120px 120px;
+    row-gap: 300px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color:lawngreen;
+}
