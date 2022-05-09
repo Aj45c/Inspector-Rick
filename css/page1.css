@@ -3,19 +3,29 @@ body{
     font-family:"Special Elite";
     background-color: #18191A;
 }
-h1{
-    color: lawngreen;
-    text-align: right;
+#CaseF{
+    color:#0ad83b;
+    text-align: center;
+    margin: 0px 0px 100px 0px;
 }
-P{
-    COLOR:lawngreen;
+#Logo{
+    border: 10px solid palevioletred;
 }
-ul{
+
+p{
+    COLOR:#0ad83b;
+    
+}
+div{
     display:grid;
     padding-top: 20px;
     grid-template-columns: 120px 120px;
     row-gap: 300px;
     justify-content: space-around;
     flex-wrap: wrap;
-    color:lawngreen;
+    color:#0ad83b;
+}
+#Jer{
+    padding: 10px 250px 45px 0px;
+    border: 2px dotted papayawhip;
 }
