@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inspector Rick's Corner</title>
-    <script src="/js/script.js"></script>
+    <script src="/js/script.js" defer></script>
     <link rel="stylesheet" href="/css/page1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +18,7 @@
 
     <p>"*Burrp* Made this dumb website to show Morty that I can be some boring Detective if *burp* I wanted to be. Gonna go to universe C-132 and
         investiage a bunch of losers because I f**king CAN MORTY!"</p>
-
+<div class="Files">
         <div class="C001"> 
             <img src="/Image/Jerry.png" id = "Jer" width = "300">
             Case File: 001
@@ -36,9 +36,24 @@
 
         <div class="C004">
             <img src="/Image/Rick.png" id ="Jer" width = "300">
-            Case File: 004
+            Case File: Rick Sanchez 
+            <button class="Pop">INFORMATION</button>
+            <div class ="popUp">
+                <div class = "popContent">
+                    <span class = "exitBtn">&times;</span><!--&times is multiplication -->
+                        <p>Name</p>
+                        <p id ="name"></p>
+                        <p>Origin</p>
+                        <p id ="origin"></p>
+                        <p>Species</p>
+                        <p id="species"></p>
+                        <p>This Rick is either one of the smart ones or the dumbest one yet. He's collecting Go *burrrrpp* Tron Ferrets.
+                            Get this..he's using them to build a giant robot THAT HE CAN BUILD HIMSELF, whaat an idiot. Of course C-132
+                            Summer thinks this is a great idea *burp* I'm going to bring this Rick in. </p>
+               </div>
+            </div>
         </div>      
-    
+ </div>   
 
 </body>
 </html>
