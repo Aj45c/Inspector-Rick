@@ -40,13 +40,12 @@ const Pop4 = document.querySelector(".Pop4");
 const extBtn4 = document.querySelector(".exitBtn4");
 //CONDITION----------------------------------------------------------------
 function toggleModal1() {
-    modal1.classList.toggle("showContent"); //Shows the class that was hidden before
+    modal1.classList.toggle("showContent");
     
     $.ajax(URL1).then(function(data){
         $name1.text(data.name)
         $origin1.text(data.origin['name'])
         $species1.text(data.species)
-        //$('.popContent').prepend(`<img src = "${data.image}"/>` )
         console.log(data);
 
     }, function(error) {
@@ -62,13 +61,12 @@ function windowOnClick1(event) {
     }
 }
 function toggleModal2() {
-    modal2.classList.toggle("showContent"); //Shows the class that was hidden before
+    modal2.classList.toggle("showContent");
     
     $.ajax(URL2).then(function(data){
         $name2.text(data.name)
         $origin2.text(data.origin['name'])
         $species2.text(data.species)
-        //$('.popContent').prepend(`<img src = "${data.image}"/>` )
         console.log(data);
 
     }, function(error) {
@@ -85,13 +83,12 @@ function windowOnClick2(event) {
 }
 
 function toggleModal3() {
-    modal3.classList.toggle("showContent"); //Shows the class that was hidden before
+    modal3.classList.toggle("showContent");
     
     $.ajax(URL3).then(function(data){
         $name3.text(data.name)
         $origin3.text(data.origin['name'])
         $species3.text(data.species)
-        //$('.popContent').prepend(`<img src = "${data.image}"/>` )
         console.log(data);
 
     }, function(error) {
@@ -108,13 +105,12 @@ function windowOnClick3(event) {
 }
 
 function toggleModal4() {
-    modal4.classList.toggle("showContent"); //Shows the class that was hidden before
+    modal4.classList.toggle("showContent");
     
     $.ajax(URL4).then(function(data){
         $name4.text(data.name)
         $origin4.text(data.origin['name'])
         $species4.text(data.species)
-        //$('.popContent').prepend(`<img src = "${data.image}"/>` )
         console.log(data);
 
     }, function(error) {
@@ -129,18 +125,18 @@ function windowOnClick4(event) {
         toggleModal4();
     }
 }
-Pop1.addEventListener("click", toggleModal1); //Shows the content
+Pop1.addEventListener("click", toggleModal1);
 extBtn1.addEventListener("click", toggleModal1);
 window.addEventListener("click", windowOnClick1);
 //-----------------------------------------------------------------------------------
-Pop2.addEventListener("click", toggleModal2); //Shows the content
+Pop2.addEventListener("click", toggleModal2);
 extBtn2.addEventListener("click", toggleModal2);
 window.addEventListener("click", windowOnClick2);
 //-----------------------------------------------------------------------------------
-Pop3.addEventListener("click", toggleModal3); //Shows the content
+Pop3.addEventListener("click", toggleModal3);
 extBtn3.addEventListener("click", toggleModal3);
 window.addEventListener("click", windowOnClick3);
 //------------------------------------------------------------------------------------
-Pop4.addEventListener("click", toggleModal4); //Shows the content
+Pop4.addEventListener("click", toggleModal4);
 extBtn4.addEventListener("click", toggleModal4);
 window.addEventListener("click", windowOnClick4);
