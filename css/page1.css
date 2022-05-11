@@ -9,7 +9,9 @@ body{
     margin: 0px 0px 100px 0px;
 }
 #Logo{
-    border: 10px solid palevioletred;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 p{
@@ -40,7 +42,7 @@ button:hover{
 
 }
 
-.popUp1, .popUp2 , .popUp3, .popUp4{
+.popUp, .popUp1, .popUp2 , .popUp3, .popUp4{
     position: fixed;
     left: 0;
     top: 0;
