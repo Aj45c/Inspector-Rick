@@ -1,6 +1,6 @@
 
 body{
-    font-family:"Special Elite";
+    font-family:"Inconsolata";
     background-color: #18191A;
 }
 #CaseF{
@@ -17,20 +17,30 @@ p{
     
 }
 .Files{
-    display:grid;
-    padding-top: 20px;
-    grid-template-columns: 120px 120px;
-    row-gap: 300px;
-    justify-content: space-around;
-    flex-wrap: wrap;
+
     color:#0ad83b;
 }
-.C001{
-    padding: 10px 250px 45px 0px;
-    border: 2px dotted papayawhip;
+ .caseName:hover{
+    color:black;
+    background-color: #0ad83b;
+
+}
+button{
+    border: none;
+    color:#0ad83b;
+    background: none;
+    font-family: Inconsolata;
+    font-size: large;
+    width: 100%;
+    text-align: left;
+}
+button:hover{
+    color:black;
+    background-color: #0ad83b;
+
 }
 
-.popUp{
+.popUp1, .popUp2 , .popUp3, .popUp4{
     position: fixed;
     left: 0;
     top: 0;
@@ -39,11 +49,11 @@ p{
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 0;
     visibility: hidden;
-    transform: scale(1.1);
+    transform: scale(0.8);
     transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
 }
 
-.popContent{
+.popContent1, .popContent2, .popContent3, .popContent4{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -54,17 +64,18 @@ p{
     border-radius: 0.5rem;
 }
 
-.exitBtn{
+span{
     float: right;
     width: 1.5rem;
     line-height: 1.5rem;
     text-align: center;
     cursor: pointer;
     border-radius: 0.25rem;
+    color: #18191A;
     background-color: #0ad83b;
 }
 
-.exitBtn:hover{
+span:hover{
     background-color: red;
 }
 
