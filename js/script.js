@@ -22,6 +22,7 @@ const $species3 = $('#species3');
 const $name4 = $('#name4');
 const $origin4 = $('#origin4');
 const $species4 = $('#species4');
+
 //JERRYS BUTTON-------------------------------------------------------------
 const modal1 = document.querySelector(".popUp1");
 const Pop1 = document.querySelector(".Pop1");
@@ -38,6 +39,7 @@ const extBtn3 = document.querySelector(".exitBtn3");
 const modal4 = document.querySelector(".popUp4");
 const Pop4 = document.querySelector(".Pop4");
 const extBtn4 = document.querySelector(".exitBtn4");
+
 //CONDITION----------------------------------------------------------------
 function toggleModal1() {
     modal1.classList.toggle("showContent");
@@ -60,6 +62,7 @@ function windowOnClick1(event) {
         toggleModal1();
     }
 }
+
 function toggleModal2() {
     modal2.classList.toggle("showContent");
     
@@ -125,6 +128,7 @@ function windowOnClick4(event) {
         toggleModal4();
     }
 }
+//----------------------------------------------------------------------------------
 Pop1.addEventListener("click", toggleModal1);
 extBtn1.addEventListener("click", toggleModal1);
 window.addEventListener("click", windowOnClick1);
