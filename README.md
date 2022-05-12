@@ -4,10 +4,10 @@ You are Investigator Rick and have gone to Dimmension C-132 to prove to Morty th
 
 TECHNOLOGY USED:
 ----------------------------------------------------------------
--HTML
--CSS
--Javascript
--JQuery
+* HTML
+* CSS
+* Javascript
+* JQuery
 
 
  Screenshot:
@@ -16,7 +16,7 @@ TECHNOLOGY USED:
 
 FUTURE IDEAS:
 ---------------------------------------------------------------
--Modal has a button that opens up a map to their last known location
--Clean up the code
--Make it look more like a old command line terminal, like a Pip-boy from fallout!
--Increase the number of characters to include more of the main cast!
+* Modal has a button that opens up a map to their last known location
+* Clean up the code
+* Make it look more like a old command line terminal, like a Pip-boy from fallout!
+* Increase the number of characters to include more of the main cast!
