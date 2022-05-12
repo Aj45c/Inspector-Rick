@@ -13,6 +13,10 @@ TECHNOLOGY USED:
  Screenshot:
  --------------------------------------------------------------
  ![Screenshot from 2022-05-11 15-13-40](https://user-images.githubusercontent.com/24855550/167928146-863800c9-6f21-4619-9c1c-91cd0ab83eed.png)
+ 
+ Getting Started
+ -------------------------------------------------------------
+[Click Here ](https://invrick.netlify.app/)to see my app!
 
 FUTURE IDEAS:
 ---------------------------------------------------------------
