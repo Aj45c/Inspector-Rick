@@ -8,6 +8,7 @@ TECHNOLOGY USED:
 * CSS
 * Javascript
 * JQuery
+* Rick and Morty API
 
 
  Screenshot:
