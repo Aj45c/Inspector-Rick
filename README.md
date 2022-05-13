@@ -1,6 +1,6 @@
 # Investigator-Rick
 ---------------------------------------------------------------
-You are Investigator Rick and have gone to Dimmension C-132 to prove to Morty that he can be a detective if he wanted to be. What does he know?! (SPOILERS)
+You are Investigator Rick and have gone to Dimmension C-132 to prove to Morty that you can be a detective if you wanted to be. What do you know so far?! (SPOILERS)
 
 TECHNOLOGY USED:
 ----------------------------------------------------------------
